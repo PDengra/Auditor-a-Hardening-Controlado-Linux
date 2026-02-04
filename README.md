@@ -82,18 +82,23 @@ sudo ./audit_harden_pro_notify.sh --harden
   - Usuarios con UID 0
 
 🧾 Baseline + Diff
+  
   Primera ejecución
+  
     - Se crea un baseline del sistema
+ 
   Ejecuciones posteriores
+  
     - Se compara el estado actual con el baseline
     - Se genera un diff
+
 👉 Permite detectar:
   - cambios no autorizados
   - drift de configuración
   - regresiones de seguridad
 
 🔐 Firma SHA256
-Cada informe se firma automáticamente:
+- Cada informe se firma automáticamente:
 ````bash
 sha256sum report.log > report.log.sha256
 ````
