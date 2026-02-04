@@ -176,5 +176,5 @@ Ejemplo de ejecución semanal con cron:
 
 Este script puede modificar la configuración del sistema cuando se usa --harden.
 
-👉 Úsalo bajo tu responsabilidad
-👉 Prueba siempre en entornos no productivos primero
+  - 👉 Úsalo bajo tu responsabilidad
+  - 👉 Prueba siempre en entornos no productivos primero
