@@ -35,7 +35,7 @@ El script tiene **dos modos de operación**:
 
 Ejemplo:
 ```bash
-sudo ./linux_audit_harden.sh --audit
+sudo ./audit_harden_pro_notify.sh --audit
 ````
 ## 🔧 Modo `--harden`
 
@@ -58,7 +58,7 @@ Cada cambio:
 
 Ejemplo de uso:
 ```bash
-sudo ./linux_audit_harden.sh --harden
+sudo ./audit_harden_pro_notify.sh --harden
 ```
 ##🔎 ¿QUÉ COMPRUEBA EXACTAMENTE?
 🖥️ Sistema
@@ -147,7 +147,7 @@ Pasos:
 
 Primero ejecuta:
 ````bash
-sudo ./linux_audit_harden.sh --audit
+sudo ./audit_harden_pro_notify.sh --audit
 ````
 Revisa:
   - informe generado
@@ -162,14 +162,14 @@ El script necesita root para:
 
 Ejemplo:
 ````bash
-sudo ./linux_audit_harden.sh --audit
+sudo ./audit_harden_pro_notify.sh --audit
 ````
 
 🚀 AUTOMATIZACIÓN (OPCIONAL)
 
 Ejemplo de ejecución semanal con cron:
 ````bash
-0 3 * * 0 root /path/linux_audit_harden.sh --audit
+0 3 * * 0 root /path/audit_harden_pro_notify.sh --audit
 ````
 
 ⚠️ DISCLAIMER
